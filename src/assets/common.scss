@@ -1,0 +1,142 @@
+$font-stack: (
+  'Nanum Gothic',
+  sans-serif
+);
+$font-color-default: #000;
+$font-size-default: 14px;
+
+/* reset CSS */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  color: $font-color-default;
+  font-family: $font-stack;
+  font-size: $font-size-default;
+  background: #ccc;
+}
+
+blockquote,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+td,
+textarea,
+th {
+  font-size: $font-size-default;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: $font-stack;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+abbr,
+acronym {
+  border: 0;
+}
+
+hr,
+legend {
+  position: absolute;
+  top: 0;
+  left: -1000em;
+  visibility: hidden;
+  overflow: hidden;
+  line-height: 0.1%;
+  font-size: 0.1%;
+  width: 0.1%;
+  height: 0.1%;
+}
+
+caption {
+  width: 0.1%;
+  height: 0.1%;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+fieldset,
+img {
+  border: 0 none;
+}
+
+label {
+  cursor: pointer;
+}
+
+button{
+  padding: 0;
+  border: 0 none;
+  background: transparent;
+  vertical-align: top;
+}
+
+a {
+  color: $font-color-default;
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    color: #686868;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}
